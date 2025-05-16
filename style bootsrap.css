@@ -1,0 +1,29 @@
+.navbar{
+    background-color: yellow;
+    height: 80px;
+    z-index: 999;
+}
+
+
+.carousel{
+    width: 40%;
+}
+
+
+.accordion{
+    width: 40%;
+}
+
+.accordion-button{
+   background-color: aqua; 
+}
+
+.accordion-button:focus, .accordion.body{
+    background-color: var(--navbar);
+}
+
+@media screen and (max-width 700px) {
+    .accordion, .carousel{
+        width: 80%;
+    }
+}
